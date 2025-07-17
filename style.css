@@ -1,11 +1,11 @@
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1e40af;
+    --primary: #f3a556;
+    --primary-dark: #bc630a;
     --text: #1e293b;
     --text-light: #64748b;
     --gray-light: #f1f5f9;
     --white: #ffffff;
-    --accent: #3b82f6;
+    --accent: #f3a556;
     --border: #e2e8f0;
 }
 
@@ -318,13 +318,13 @@ a:hover {
 }
 
 .project-card::after {
-    content: "View on GitHub";
+    content: "View the App";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(130, 164, 238, 0.9);
+    background-color: rgba(243, 165, 86, 0.9);
     color: var(--white);
     display: flex;
     align-items: center;
